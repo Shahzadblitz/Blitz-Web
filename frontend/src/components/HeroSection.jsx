@@ -17,15 +17,14 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="text-white">
-            <h1 className="text-3xl md:text-4xl lg:text-[42px] font-extrabold leading-tight mb-6" style={{ fontFamily: 'Inter, sans-serif' }}>
+            <h1 className="text-3xl md:text-4xl lg:text-[42px] font-extrabold leading-tight mb-6 italic" style={{ fontFamily: 'Inter, sans-serif' }}>
               Grow Your Home Service Business with Real Customers — Not Just Clicks
-              <br />
-              <span className="inline-block mt-2">
-                <span className="text-white">Local Leads.</span>{' '}
-                <span className="text-white">Real Calls.</span>{' '}
-                <span className="text-white">Zero Guesswork.</span>
-              </span>
             </h1>
+            <div className="flex flex-wrap gap-x-4 gap-y-1 mb-6">
+              <span className="text-white text-xl md:text-2xl font-bold italic border-b-2 border-[#F7941D] pb-1">Local Leads.</span>
+              <span className="text-white text-xl md:text-2xl font-bold italic border-b-2 border-[#F7941D] pb-1">Real Calls.</span>
+              <span className="text-white text-xl md:text-2xl font-bold italic border-b-2 border-[#F7941D] pb-1">Zero Guesswork.</span>
+            </div>
 
             <p className="text-white/80 text-lg md:text-xl leading-relaxed mb-8 max-w-xl">
               Built specifically for contractors, franchises, and local pros — we connect you with real people actively searching for help in your area.
