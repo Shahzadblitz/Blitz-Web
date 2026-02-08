@@ -26,8 +26,10 @@ const HeroSection = () => {
               <span className="text-white text-xl md:text-2xl font-bold italic border-b-2 border-[#F7941D] pb-1">Zero Guesswork.</span>
             </div>
 
-            <p className="text-white/80 text-lg md:text-xl leading-relaxed mb-8 max-w-xl">
+            <p className="text-white/80 text-base md:text-lg leading-relaxed mb-8 max-w-xl">
               Built specifically for contractors, franchises, and local pros — we connect you with real people actively searching for help in your area.
+              <br /><br />
+              <span className="text-white/90">Get exclusive live leads from real homeowners near you. No guesswork.</span>
             </p>
 
             {/* Bullet Points */}
